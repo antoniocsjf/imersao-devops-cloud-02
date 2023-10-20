@@ -34,8 +34,8 @@ jobs:
       - name: Configuração da Credencial da AWS
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ secrets_AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets_AWS_ACCESS_KEY }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_ACCESS_KEY }}
           aws-region: us-east-1
       - name: Configurar o KubeConfig
         run: echo "Configurar no KubeConfig"
