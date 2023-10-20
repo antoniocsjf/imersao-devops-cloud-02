@@ -58,7 +58,7 @@ resource "aws_route_table_association" "a" {
 
 resource "aws_key_pair" "deployer" {
   key_name   = "video-imersao-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDkFrpzSOqCa2dtlMx1vC1tbkTOPG9BLVLg1Z4prnpFZvS6LLRikKo774zdgXX/HFZMrBYkzskUXzeaDijQH8lcsDIz5jaQe2m6u6G6QkMn19V19QoW1qosrJL5QyUm8vxLKkJziILO2BMACJYGRENuGFAQGdnDxvmHXNU0/xJrEeJh+jkKqafd24aWM+ilMzpG/mQIRWaA/6mEilyRVX/QTa3qEohhlX0yny26uWCZjXdWvB2xA+f+3JqBtD8SGuZcUWjOm4YdXfl9FxSQfyt/AtFTp3nwvBiM1LKEbiSYOj7wPlENFd+C85cYa7wFmAxTbBkWHoC2Lyu3Y85W1Oyr toninho@SRV-CASA"
+  public_key = "key"
 }
 
 
